@@ -1,65 +1,68 @@
+@import url(https://fonts.googleapis.com/css2?family=Belleza&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap);
 
+@import "./constants.css";
 
 html,
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Tenor Sans';
-  font-size: 18px;
-  background-color: #fff;
-  color: #333;
+   margin: 0;
+   padding: 0;
+   font-family: "Tenor Sans";
+   font-size: 18px;
+   background-color: white;
+   color: #333;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
+   display: flex;
+   flex-direction: column;
 }
 
 a {
-  text-decoration: none;
+   text-decoration: none;
 }
 
 header {
-  height: 80px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 50px;
-  background-color: #fff;
-  box-shadow: 0 5px 10px 0 #ccc;
+   height: 80px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   z-index: 1000;
+   text-transform: uppercase;
+   display: flex;
+   justify-content: space-between;
+   padding: 15px 50px;
+   background-color: #fff;
+   box-shadow: 0 5px 10px 0 #ccc;
 }
 
 header a {
-  padding: 10px 30px;
-  color: #333;
-  letter-spacing: 1px;
-  font-weight: 700;
-  transition: color .3s;
+   padding: 10px 30px;
+   color: #333;
+   letter-spacing: 1px;
+   font-weight: 700;
+   transition: color 0.3s;
 }
 
 header a:hover {
-  color: #1976d2;
+   color: #1976d2;
 }
 
 main {
-  padding: 100px 20px;
+   padding: 100px 20px;
 }
 
 footer {
-  height: 60px;
-  background-color: #000;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1000;
+   height: 60px;
+   background-color: #000;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: 1000;
 }
